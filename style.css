@@ -1,0 +1,772 @@
+html{
+    position: relative;
+    width: 1024px;
+    height: 600px;
+    
+    
+    background: #0B1D26;
+
+    
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);   
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    counter-reset: col;
+    position: relative;
+    width: 100%;
+   height: 100vh;
+}
+  
+  
+header {
+ position: relative;
+ width: 100%;
+ height: 100vh;
+}
+
+header .menu {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    color: white;
+  
+}
+.backs {
+position: absolute;
+width: 1920px;
+height: 1200px;
+left: -11px;
+top: -15px;
+
+}
+.clouds{
+   position: absolute;
+   width: 1920px;
+   height: 1513px;
+   left: 0px;
+   top: -80px;
+}
+
+.cloudsshadow{
+    position: absolute;
+    width: 1920px;
+    height: 12004x;
+    left: 5px;
+    top: 0px;
+}
+
+.Mountains{
+    position: absolute;
+    width: 1920px;
+    height: 1422px;
+    left: 0px;
+    top: 784px;
+}
+.people{
+    position: absolute;
+width: 1920px;
+height: 926px;
+left: 0px;
+top: 1220px;
+
+}
+
+.shadow{
+ position: absolute;
+width: 1920px;
+height: 700px;
+left: 9px;
+top: 1629px;
+
+background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+}
+
+.hight{
+    position: absolute;
+width: 1760px;
+height: 25px;
+left: 80px;
+top: 64px;
+}
+
+.logo{
+    position: absolute;
+    width: 108px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Chronicle Display;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+.Equipment{
+    position: absolute;
+    width: 90px;
+    height: 22px;
+    left: 739px;
+    top: 2px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+.Aboutus{
+    position: absolute;
+    width: 75px;
+    height: 22px;
+    left: 869px;
+    top: 2px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.Blog{
+    position: absolute;
+    width: 38px;
+    height: 22px;
+    left: 984px;
+    top: 2px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.account{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1662px;
+    top: 1px;    
+}
+
+.material-icons{
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 1694px;
+    top: 3px;
+
+}
+
+.follow {
+  
+    position: absolute;
+    width: 77px;
+    height: 22px;
+    left: -24px;
+    top: 363px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+
+   color: #FFFFFF;
+
+   transform: rotate(90deg);
+
+}
+.instagram{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 420px;
+
+    rotate: 90deg;
+ 
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+   font-size: 18px;
+    line-height: 22px;
+   /* identical to box height */
+
+
+  color: #FFFFFF;
+
+  
+}
+.twitter{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 460px;
+
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+   /* identical to box height */
+
+
+  color: #FFFFFF;
+
+  
+}
+
+.titl{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 950px;
+    height: 310px;
+    left: 500px;
+    top: 287px;
+    
+
+}
+
+.minititle{
+
+    position: absolute;
+    width: 287px;
+    height: 22px;
+    left: 100px;
+    top: 0px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+
+    color: #FBD784;
+}
+
+.rectangle {
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    left: 0px;
+    top: -3.5px;
+    font-size: 20px;
+
+
+}
+  
+
+.maintitle {
+    position: static;
+    width: 950px;
+    height: 200px;
+    left: 0px;
+    top: 54px;
+    
+    font-family: Chronicle Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
+
+.scrole{
+    position: absolute;
+    width: 94px;
+    height: 22px;
+    left: 0px;
+    top: 367px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+.arrow{
+    position: absolute;
+    width: 16px;
+    height: 24px;
+    left: 110px;
+    top: 366px;
+
+}
+
+
+.slider{
+    position: absolute;
+    width: 3px;
+    height: 240px;
+    left: 1727px;
+    top: 326px;
+}
+.frame{
+    position: absolute;
+    width: 42px;
+    height: 208px;
+    left: 1663px;
+    top: 342px;
+    
+}
+.start{
+    position: static;
+    width: 42px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 22px;
+    
+    text-align: right;
+    
+    color: #FFFFFF;
+
+    flex: none;
+    flex-grow: 0;
+    margin: 40px 0px;
+}
+.first{
+    
+    width: 42px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+}
+
+.second{
+    width: 21px;
+    height: 22px;
+    left: 21px;
+    top: 124px;
+}
+
+
+.thrid{
+
+    width: 21px;
+    height: 22px;
+    left: 21px;
+    top: 186px;
+    order: 3;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 229px;
+    
+    position: absolute;
+    width: 1262px;
+    height: 2040px;
+    left: 229px;
+    right: 229px;
+    top: 1740px;
+    
+}
+.infofirst{
+
+
+    position: static;
+    width: 1262px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+}
+.infoesecomd{
+
+    position: static;
+    width: 1462px;
+    height: 720px;
+    left: 0%;
+    top: 920px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 200px 0px;
+
+}
+.infothird{
+    position: static;
+    width: 1462px;
+    height: 720px;
+    left: 0px;
+    top: 1840px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 200px 0px;
+}
+.titfirst{
+    position: absolute;
+    left: 1025px;
+    right: 229px;
+    top: 0px;
+    bottom: 0px;
+}
+.Equipme{
+    position: absolute;
+    left: 0%;
+    right: 83.58%;
+top: 0;
+bottom: 61.39%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 240px;
+line-height: 240px;
+}
+.lineone{
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    left: 150px;
+    top: 100px;
+    
+}
+.onename{
+    position: absolute;
+    height: 12px;
+    left:246px;
+    top: 100px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+.onemean{
+    position: static;
+    width: 655px;
+    height: 154px;
+    left:150px;
+    top: 190px;
+    
+    font-family: Chronicle Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    
+    color: #FFFFFF;
+    
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 27px 0px;
+}
+.onetext{
+    position: static;
+    width: 632px;
+    height: 160px;
+    left: 0px;
+    top: 230px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    
+    color: #FFFFFF;
+    
+    flex: none;
+    order: 2;
+    align-self: center;
+    flex-grow: 0;
+    margin: 27px 0px;
+}
+
+.readone{
+    position: absolute;
+    left: 230px;
+    top: 650px;
+    
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FBD784;
+}
+.readmeone{
+
+    position: absolute;
+    left: 310px;
+    top: 654px;
+}
+
+.information{
+    position: static;
+    width: 1462px;
+    height: 720px;
+    left: 0%;
+    top: 920px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 200px 0px;
+}
+
+.number{
+    position: absolute;
+    left: 680px;
+    top: 1138px;
+
+}
+.hike{
+    position: absolute;
+    left:0px;
+}
+.linesecond{
+    position: absolute;
+    left: 830px;
+    top:1225px;
+}   
+.twoname{
+    position: absolute;
+    width: 632px;
+    height: 22px;
+    left: 930px;
+    top:1230px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+} 
+.twomean{
+    position: absolute;
+    left: 830px;
+    width: 555px;
+    font-family: Chronicle Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+.twotext{
+    position: absolute;
+    width: 632px;
+    height: 160px;
+    left:830px;
+    top:1561px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.readtwo{
+    position: absolute;
+    left:830px;
+    top:1751px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBD784;
+}
+.readmetwo{
+    position: absolute;
+    left:920px;
+    top:1754px;
+}
+.numdthre{
+    position: absolute;
+}
+.key{
+    position: absolute;
+    left: 60%;  
+}
+.linethree{
+    position: absolute;
+    left: 270px;
+    top:2330px;
+}
+.threename{
+    position: absolute;
+    top:2330px;
+    left:350px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+.threemean{
+    position: absolute;
+    left: 270px;
+    top:2400px;
+    width: 555px;
+    font-family: Chronicle Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+.threetext{
+    position: absolute;
+    width: 632px;
+    height: 160px;
+    left: 270px;
+    top:2600px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.readthree{
+    position: absolute;
+    left:270px;
+    top:2800px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBD784;
+}
+.readmethree{
+    position: absolute;
+    left:360px;
+    top:2802px;
+}
+.down{
+    position: static;
+    width: 1462px;
+    height: 280px;
+    left: 0px;
+    top: 2760px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 200px 0px; 
+}
+.downlogo{
+    position: absolute;
+    font-family: Chronicle Display;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.downtext{
+    position: absolute;
+    width: 303px;
+    height: 64px;
+    top: 3453px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.more{
+    position: absolute;
+    top: 3453px;
+width: 193px;
+height: 280px;
+left: 896px;
+top: 3380px;
+color: #FBD784;
+}
+ul{
+    color: #FFFFFF;  
+}
+li{
+    list-style: none;
+    list-style-position: outside;
+    margin-bottom: 20px;
+}
+.linktwo{
+    position: absolute;
+    width: 161px;
+    height: 32px;
+    left: 1301px;
+    top: 3380px;
+
+    color: #FBD784;
+}
+.end{
+    position: absolute;
+    width: 347px;
+    height: 32px;
+    top: 3650px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF; 
+}
